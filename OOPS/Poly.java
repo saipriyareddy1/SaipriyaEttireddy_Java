@@ -1,4 +1,5 @@
 //Parent Class
+package OOPS;
 class Add{
     public int mathFun(int a, int b){
         int sum = a+b;

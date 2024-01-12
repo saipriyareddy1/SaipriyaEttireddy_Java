@@ -1,10 +1,14 @@
+package OOPS;
 abstract class Department {
     int size = 120;
     abstract int getDepartmentSize();
 }
+
 class Deptsize extends Department{
-    public int getDepartmentSize(){
+    public int getDepartmentSize()
+    {
         return size;
+
     }
 }
 public class Main{
