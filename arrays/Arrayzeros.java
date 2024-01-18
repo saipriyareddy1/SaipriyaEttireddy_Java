@@ -18,6 +18,6 @@ public class Arrayzeros {
         }
         // Print the modified array
         for (i = 0; i < b.length; i++)
-            System.out.println(b[i]);
+            System.out.print(b[i]+" ");
     }
 }
