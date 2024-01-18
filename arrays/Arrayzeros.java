@@ -13,8 +13,8 @@ public class Arrayzeros {
             }
         }
         // For zeros
-        while(i<n){
-            b[cnt++]=0;
+        while(cnt<n){
+            b[cnt++]=1;
         }
         // Print the modified array
         for (i = 0; i < b.length; i++)
