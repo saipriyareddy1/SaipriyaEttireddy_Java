@@ -2,19 +2,14 @@ package arraylist;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class ArrayConversion {
-    public static void main(String[] args) {
+    public static String[] traverseWithForLoop(ArrayList<String> employeeList)  {
         // Create an ArrayList
         ArrayList<String> arrayList = new ArrayList<>();
-        arrayList.add("Texas");
-        arrayList.add("California");
-        arrayList.add("Chicago");
-
         // Convert ArrayList to array
         String[] array = arrayList.toArray(new String[0]);
-
-        // Print the array
-        System.out.println("Array elements: " + Arrays.toString(array));
+        return array;
     }
 }
