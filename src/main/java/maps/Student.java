@@ -12,6 +12,16 @@ public class Student {
         this.gpa = gpa;
     }
 
+    public String getFirstName() {
+        return firstName;
+    }
 
+    public String getLastName() {
+        return lastName;
+    }
+
+    public double getGpa() {
+        return gpa;
+    }
 }
 
